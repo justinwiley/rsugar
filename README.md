@@ -74,9 +74,10 @@ For production systems, it's recommended you manually install R packages first.
 
 #### Default locations:
 
-Environment | Location
-Rails defined? | File.join(Rails.root, 'r-packages')
-Rails not defined? | './r-packages'
+| Environment        | Location                              |
+| ------------------ | ------------------------------------: |
+| Rails defined?     |   File.join(Rails.root, 'r-packages') |
+| Rails not defined? |   ./r-packages                        |
 
 ### Note:
 
